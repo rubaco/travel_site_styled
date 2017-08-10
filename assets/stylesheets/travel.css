@@ -1,10 +1,12 @@
 /*
 Set the box sizing for every element on the page
-to border-box. Elements should have padding and 
+to border-box. Elements should have padding and
 border included in the element's total width and height
 */
 
-
+* {
+  box-sizing: border-box;
+}
 
 /*
 Set some common styles for the body of the page
@@ -13,6 +15,13 @@ Set some common styles for the body of the page
  - font to helvetica
  - font size to 16px
 */
+
+body{
+  background-color: black;
+  color: white;
+  font-style: helvetica;
+  font-size: 16px;
+}
 
 
 
@@ -59,7 +68,7 @@ style the elements with a class of card
 */
 
 
- 
+
 /*
 style the element with the id of hero
  - width of 100%
@@ -105,7 +114,7 @@ style the element with the id of hero
   - height of 100px
   - line height of 100px
 */
- 
+
 
 
 /*
@@ -161,7 +170,7 @@ style the element with the id of hero
 
 
 /*
- target the table element 
+ target the table element
   - give a 2px black solid border to the table
   - collaps the border to remove spacing between cells
   - make the width 100%
@@ -177,7 +186,7 @@ style the element with the id of hero
 
 
 /*
- target the th element 
+ target the th element
   - set the background color to black
   - set the text color to white
 */
@@ -185,7 +194,7 @@ style the element with the id of hero
 
 
 /*
- target the element with the id of travel-table 
+ target the element with the id of travel-table
   - make the text color black
   - make the background color white
 */
@@ -193,7 +202,7 @@ style the element with the id of hero
 
 
 /*
- target the h3 element within the element with the id of travel-table 
+ target the h3 element within the element with the id of travel-table
   - center align the text
 */
 
@@ -212,4 +221,3 @@ style the element with the id of hero
  target the links inside element with the id of social-links
   - make sure the text is white and there is no underline
 */
-
